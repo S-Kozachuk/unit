@@ -1,0 +1,113 @@
+.section-clients {
+    padding: 110px 0 95px;
+    background-image: url("../img/clients/bg-clients.svg");
+    background-repeat: no-repeat;
+    background-position: center 156px;
+    background-size: auto;
+}
+
+.section-clients__title {
+    margin-bottom: 68px;
+    text-align: center;
+}
+
+.section-clients__header {
+    margin-bottom: 83px;
+    text-align: center;
+}
+
+.section-clients__carousel {
+    width: 752px;
+    margin: 0 auto;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonial__text {
+    margin-bottom: 47px;
+    color: #808080;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 2.22;
+    text-align: center;
+
+    p {
+        margin: 0;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+}
+
+.testimonial_user {
+    padding-left: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.testimonial__user-photo {
+    margin-right: 35px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+.testimonial__user-name {
+    color: #808080;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.3;
+}
+
+.clients-carousel.owl-carousel .owl-nav button.owl-prev {
+    width: 52px;
+    height: 52px;
+    background-image: url("../img/carousel/arrow-left.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: absolute;
+    top: 15px;
+    left: -50px;
+    transform: translateX(-100%);
+    outline: none;
+
+    &:hover {
+        opacity: 0.7;
+    }
+
+    span {
+        display: none;
+    }
+}
+
+.clients-carousel.owl-carousel .owl-nav button.owl-next {
+    width: 52px;
+    height: 52px;
+    background-image: url("../img/carousel/arrow-right.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: absolute;
+    top: 15px;
+    right:-43px;
+    transform: translateX(100%);
+    outline:none;
+
+    &:hover {
+        opacity: 0.7;
+    }
+
+    span {
+        display: none;
+    }
+}
