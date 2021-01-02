@@ -203,12 +203,18 @@ body {
   background-color: #0c824f;
 }
 .header-scroll {
-  position: absolute;
-  bottom: 120px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 32px;
-  height: 48px;
+  display: none;
+}
+@media (min-width: 1200px) {
+  .header-scroll {
+    display: block;
+    position: absolute;
+    bottom: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 32px;
+    height: 48px;
+  }
 }
 .header-top-buttons {
   position: absolute;

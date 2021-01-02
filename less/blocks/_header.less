@@ -177,16 +177,23 @@
         outline: none;
         background-color: darken(#15df87, 20%);
     }
-    
+
 }
 
 .header-scroll {
-    position: absolute;
-    bottom: 120px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 32px; 
-    height: 48px;
+    display: none;
+
+    @media (min-width: 1200px) {
+        display: block;
+        position: absolute;
+        bottom: 120px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 32px; 
+        height: 48px;
+    }
+
+
 }
 
 .header-top-buttons {
