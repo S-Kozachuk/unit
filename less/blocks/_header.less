@@ -34,21 +34,46 @@
 
 .header-logo {
     margin: 0;
-    margin-bottom: 70px;
+    margin-bottom: 25px;
     text-align: center;
-    font-size: 96px;
+    font-size: 62px;
     font-weight: 700;
-    letter-spacing: 19.2px;
+    letter-spacing: 12.4px;
     text-transform: uppercase;
+
+    @media (min-width: 768px) {
+        margin-bottom: 25px;
+        font-size: 82px;
+        letter-spacing: 16.4px;
+    }
+
+    @media (min-width: 1200px) {
+        margin-bottom: 70px;
+        font-size: 96px;
+        letter-spacing: 19.2px;
+    }
+
 }
 
 .header-description {
+    margin-bottom: 40px;
     max-width: 725px;
     text-align: center;   
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 500;
     line-height: 1.5;
-    margin-bottom: 85px;
+    letter-spacing: 1.6px;
+
+    @media (min-width: 768px) {
+        margin-bottom: 70px;
+    }
+    
+    @media (min-width: 1200px) {
+        margin-bottom: 85px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
 } 
 
 .header-description p {
