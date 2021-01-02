@@ -1,12 +1,21 @@
 .header {
     position: relative;
-    height: 870px;
+    min-height: 100vh;
     background-color: #4e5459;
     color: rgb(255, 255, 255);
     background-image: url("../img/header/header-bg.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
+    @media (min-width: 768px) {
+
+    }
+    
+    @media (min-width: 1200px) {
+        height: 870px;
+    }
+
 }
 
 .header::before {

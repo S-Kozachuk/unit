@@ -54,13 +54,18 @@ body {
 }
 .header {
   position: relative;
-  height: 870px;
+  min-height: 100vh;
   background-color: #4e5459;
   color: #ffffff;
   background-image: url("../img/header/header-bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+@media (min-width: 1200px) {
+  .header {
+    height: 870px;
+  }
 }
 .header::before {
   content: "";
