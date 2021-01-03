@@ -106,6 +106,11 @@ body {
   height: 100%;
   z-index: 9;
 }
+@media (min-width: 768px) {
+  .header-content {
+    padding-top: 38px;
+  }
+}
 .header-logo {
   margin: 0;
   margin-bottom: 9px;
@@ -117,9 +122,9 @@ body {
 }
 @media (min-width: 768px) {
   .header-logo {
-    margin-bottom: 25px;
+    margin-bottom: 5px;
     font-size: 82px;
-    letter-spacing: 16.4px;
+    letter-spacing: 12.4px;
   }
 }
 @media (min-width: 1200px) {
@@ -139,7 +144,8 @@ body {
 }
 @media (min-width: 768px) {
   .header-description {
-    margin-bottom: 70px;
+    margin-bottom: 52px;
+    width: 562px;
   }
 }
 @media (min-width: 1200px) {
@@ -168,7 +174,6 @@ body {
   .header-form {
     flex-direction: row;
     width: auto;
-    max-width: auto;
   }
 }
 .header-form__input {

@@ -41,6 +41,11 @@
     width: 100%;
     height: 100%;
     z-index: 9;
+
+    @media (min-width: 768px) {
+        padding-top: 38px;
+    }
+
 }
 
 .header-logo {
@@ -53,9 +58,9 @@
     text-transform: uppercase;
 
     @media (min-width: 768px) {
-        margin-bottom: 25px;
+        margin-bottom: 5px;
         font-size: 82px;
-        letter-spacing: 16.4px;
+        letter-spacing: 12.4px;
     }
 
     @media (min-width: 1200px) {
@@ -75,7 +80,8 @@
     line-height: 1.5;
 
     @media (min-width: 768px) {
-        margin-bottom: 70px;
+        margin-bottom: 52px;
+        width: 562px;
     }
     
     @media (min-width: 1200px) {
@@ -104,11 +110,6 @@
     @media (min-width: 768px) {
         flex-direction: row;
         width: auto;
-        max-width: auto;
-    }
-    
-    @media (min-width: 1200px) {
-    
     }
 
 }
