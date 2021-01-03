@@ -265,8 +265,6 @@ body {
 .header-search-button {
   display: none;
   position: absolute;
-  top: 60px;
-  right: 54px;
   justify-content: center;
   align-items: center;
   width: 60px;
@@ -277,6 +275,14 @@ body {
 @media (min-width: 768px) {
   .header-search-button {
     display: flex;
+    top: 20px;
+    right: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .header-search-button {
+    top: 60px;
+    right: 54px;
   }
 }
 .section-functional {
