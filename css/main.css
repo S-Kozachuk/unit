@@ -73,6 +73,12 @@ body {
   background-position: center;
   background-size: cover;
 }
+@media (min-width: 768px) {
+  .header {
+    height: 568px;
+    min-height: auto;
+  }
+}
 @media (min-width: 1200px) {
   .header {
     height: 870px;
@@ -92,9 +98,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
+  padding-top: 100px;
+  padding-bottom: 65px;
   width: 100%;
   height: 100%;
   z-index: 9;
