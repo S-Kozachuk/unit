@@ -7,8 +7,19 @@ body {
 }
 .container {
   padding: 0 15px;
-  max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+    width: 1200px;
+  }
 }
 .column-center {
   display: flex;
