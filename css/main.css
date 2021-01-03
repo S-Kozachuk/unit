@@ -111,6 +111,11 @@ body {
     padding-top: 38px;
   }
 }
+@media (min-width: 1200px) {
+  .header-content {
+    padding-top: 35px;
+  }
+}
 .header-logo {
   margin: 0;
   margin-bottom: 9px;
@@ -129,7 +134,7 @@ body {
 }
 @media (min-width: 1200px) {
   .header-logo {
-    margin-bottom: 70px;
+    margin-bottom: 44px;
     font-size: 96px;
     letter-spacing: 19.2px;
   }
@@ -150,7 +155,8 @@ body {
 }
 @media (min-width: 1200px) {
   .header-description {
-    margin-bottom: 85px;
+    margin-bottom: 67px;
+    width: auto;
     font-size: 20px;
     font-weight: 700;
   }
