@@ -4,11 +4,21 @@
     text-align: center;
 }
 .benefit__img {
-    height: 100px;
-    margin-bottom: 27px;
+    height: 90px;
+    margin-bottom: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media (min-width: 768px) {
+        height: 100px;
+        margin-bottom: 20px;
+    }
+    
+    @media (min-width: 1200px) {
+        margin-bottom: 27px;
+    }
+
 }
 
 .benefit__title {
