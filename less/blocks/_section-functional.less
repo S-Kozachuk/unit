@@ -1,10 +1,19 @@
 .section-functional {
-    padding: 107px 0 67px;
+    padding: 75px 0 75px;
     background-color: #fff;
     background-image: url("../img/bg-particles.svg");
     background-repeat: no-repeat;
     background-position: center 70px;
     background-size: auto;
+
+    @media (min-width: 768px) {
+        padding: 75px 0 90px;
+    }
+    
+    @media (min-width: 1200px) {
+        padding: 107px 0 65px;
+    }
+
 }
 
 .section-functional__title {
@@ -37,6 +46,13 @@
 
 .section-functional__benefits {
     display: flex;
+    flex-direction: column;
+
+    @media (min-width: 768px) {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
 }
 
 .section-functional__benefits > div {

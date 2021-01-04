@@ -427,13 +427,23 @@ body {
   }
 }
 .section-functional {
-  padding: 107px 0 67px;
+  padding: 75px 0 75px;
   background-color: #fff;
   background-image: url("../img/bg-particles.svg");
   background-repeat: no-repeat;
   background-position: center 70px;
   -moz-background-size: auto;
        background-size: auto;
+}
+@media (min-width: 768px) {
+  .section-functional {
+    padding: 75px 0 90px;
+  }
+}
+@media (min-width: 1200px) {
+  .section-functional {
+    padding: 107px 0 65px;
+  }
 }
 .section-functional__title {
   margin-bottom: 40px;
@@ -469,6 +479,27 @@ body {
   display: -moz-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+@media (min-width: 768px) {
+  .section-functional__benefits {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+       -moz-box-orient: horizontal;
+       -moz-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
 }
 .section-functional__benefits > div {
   width: 270px;
