@@ -568,7 +568,12 @@ body {
   color: #808080;
   font-size: 14px;
   font-weight: 500;
-  line-height: 2.1;
+  line-height: 1.7;
+}
+@media (min-width: 1200px) {
+  .benefit__desc {
+    line-height: 2.1;
+  }
 }
 .benefit__desc p {
   margin: 0;
