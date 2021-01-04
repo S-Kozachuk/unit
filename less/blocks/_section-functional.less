@@ -52,6 +52,7 @@
     @media (min-width: 768px) {
         flex-direction: row;
         flex-wrap: wrap;
+        align-items: flex-start;
     }
 
 }
@@ -71,6 +72,11 @@
         margin-bottom: 30px;
         max-width: unset;
         width: calc( ~"50% - 16px" );
+
+        &:nth-last-child(2) {
+            margin-bottom: 0;
+        }
+
     }
     
     @media (min-width: 1200px) {
