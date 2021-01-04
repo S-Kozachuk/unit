@@ -502,11 +502,17 @@ body {
   }
 }
 .section-functional__benefits > div {
-  width: 270px;
-  margin-right: 30px;
+  width: 100%;
+  padding: 0 8px;
 }
-.section-functional__benefits > div:last-child {
-  margin-right: 0;
+@media (min-width: 1200px) {
+  .section-functional__benefits > div {
+    width: 270px;
+    margin-right: 30px;
+  }
+  .section-functional__benefits > div:last-child {
+    margin-right: 0;
+  }
 }
 .benefit {
   padding-left: 20px;
