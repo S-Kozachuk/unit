@@ -429,11 +429,6 @@ body {
 .section-functional {
   padding: 75px 0 75px;
   background-color: #fff;
-  background-image: url("../img/bg-particles.svg");
-  background-repeat: no-repeat;
-  background-position: center 70px;
-  -moz-background-size: auto;
-       background-size: auto;
 }
 @media (min-width: 768px) {
   .section-functional {
@@ -442,7 +437,12 @@ body {
 }
 @media (min-width: 1200px) {
   .section-functional {
-    padding: 107px 0 65px;
+    padding: 107px 0 60px;
+    background-image: url("../img/bg-particles.svg");
+    background-repeat: no-repeat;
+    background-position: center 70px;
+    -moz-background-size: auto;
+         background-size: auto;
   }
 }
 .section-functional__title {
