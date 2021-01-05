@@ -920,7 +920,16 @@ img {
   margin: 0;
   font-size: 16px;
   font-weight: 500;
-  line-height: 2.5;
+}
+@media (min-width: 768px) {
+  .section-price-structure p {
+    line-height: 1.87;
+  }
+}
+@media (min-width: 1200px) {
+  .section-price-structure p {
+    line-height: 2.5;
+  }
 }
 .section-price__button {
   padding: 15px 26px;
@@ -944,6 +953,17 @@ img {
   outline: none;
   background-color: #fff;
   color: #666666;
+}
+@media (min-width: 768px) {
+  .section-price__button {
+    padding: 20px 31px;
+    letter-spacing: 2.4px;
+  }
+}
+@media (min-width: 1200px) {
+  .section-price__button {
+    letter-spacing: 2.8px;
+  }
 }
 .section-clients {
   padding: 110px 0 95px;
