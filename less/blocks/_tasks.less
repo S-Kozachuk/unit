@@ -3,7 +3,7 @@
     padding: 94px 0 24px;
     border-bottom: 1px solid #e1e1e1;
 
-    &::before{
+    &::before {
         content: "";
         position: absolute;
         display: block;
@@ -14,27 +14,83 @@
         transform: translate(-50%, -50%) rotate(45deg);
         background-color: #a4eecb;
     }
+
+    @media (min-width: 768px) {
+        padding: 65px 0 42px;
+
+        &::before {
+            display: none;
+        }
+
+    }
+    
+    @media (min-width: 1200px) {
+        padding: 94px 0 24px;
+        
+        &::before {
+            display: block;
+        }
+
+    }
+
 }
 
 
 .section-tasks-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 100px;
-    padding-right: 150px;
+    
+    @media (min-width: 768px) {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 30px;
+        padding-right: 31px;
+    }
+    
+    @media (min-width: 1200px) {        
+        flex-direction: row;
+        padding-left: 100px;
+        padding-right: 150px;
+    }
+
 }
 
 .section-tasks__title {
     margin-bottom: 37px;
+
+    @media (min-width: 768px) {
+        margin-bottom: 37px;
+    }
+    
+    @media (min-width: 1200px) {
+        margin-bottom: 37px;
+    }
+
 }
 
 .section-tasks__header {
-    margin-bottom: 41px;
+
+    @media (min-width: 768px) {
+        margin-bottom: 20px;
+    }
+    
+    @media (min-width: 1200px) {
+        margin-bottom: 41px;
+    }
+
 }
 
 .section-tasks-text {
-    width: 470px;
+
+    @media (min-width: 768px) {
+        margin-bottom: 68px;
+        width: 376px;
+    }
+    
+    @media (min-width: 1200px) {
+        width: 470px;
+    }
+
 }
 
 .section-tasks__desc {
@@ -43,8 +99,22 @@
     font-weight: 500;
     line-height: 2.2;
     text-align: left;
+
+    @media (min-width: 768px) {
+        line-height: 2.14;
+    }
+    
+    @media (min-width: 1200px) {
+        line-height: 2.2;
+    }
+
 }
 
 .section-tasks__desc p {
     margin: 0;
+}
+
+.section-task__img {
+    margin-right: 2px;
+    max-width: 270px;
 }
