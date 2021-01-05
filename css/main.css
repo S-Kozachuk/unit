@@ -697,17 +697,17 @@ img {
   justify-content: space-between;
   align-items: center;
 }
-.section-functional__img-wrapper {
+.section-focus__img-wrapper {
   position: relative;
   width: 470px;
   height: 731px;
 }
-.section-functional__img {
+.section-focus__img {
   position: absolute;
   top: 0;
   right: 0;
 }
-.section-functional__content {
+.section-focus__content {
   padding-bottom: 130px;
   width: 470px;
 }
