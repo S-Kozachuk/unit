@@ -836,6 +836,11 @@ img {
     background-size: cover;
   }
 }
+@media (min-width: 1200px) {
+  .section-price {
+    padding: 100px 0 89px;
+  }
+}
 @media (min-width: 768px) {
   .section-price::before {
     content: "";
@@ -989,13 +994,13 @@ img {
   .section-price-structure {
     margin-bottom: 36px;
   }
-  .section-price-structure:nth-last-child(2) {
-    margin-bottom: auto;
-  }
 }
 @media (min-width: 1200px) {
   .section-price-structure {
-    margin-bottom: 26px;
+    margin-bottom: 30px;
+  }
+  .section-price-structure:nth-last-child(2) {
+    margin-bottom: 30px;
   }
 }
 .section-price-structure p {
