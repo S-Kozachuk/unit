@@ -823,27 +823,30 @@ img {
 }
 .section-price {
   position: relative;
-  padding: 100px 0 90px;
-  background-color: #000000;
-  background-image: url("../img/price/price-bg.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  padding: 75px 0 70px;
+  background-color: #49c38f;
 }
 @media (min-width: 768px) {
   .section-price {
     padding: 70px 0 80px;
+    background-color: #000000;
+    background-image: url("../img/price/price-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
 }
-.section-price::before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+@media (min-width: 768px) {
+  .section-price::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
 }
 .section-price-content {
   position: relative;
@@ -851,7 +854,7 @@ img {
   text-align: center;
 }
 .section-price__title {
-  margin-bottom: 70px;
+  margin-bottom: 30px;
 }
 @media (min-width: 768px) {
   .section-price__title {
@@ -864,7 +867,7 @@ img {
   }
 }
 .section-price__header {
-  margin-bottom: 76px;
+  margin-bottom: 45px;
 }
 @media (min-width: 768px) {
   .section-price__header {
@@ -879,12 +882,18 @@ img {
 .section-price-offer {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   color: #fff;
 }
+@media (min-width: 768px) {
+  .section-price-offer {
+    flex-direction: row;
+  }
+}
 .section-price__card {
-  margin-right: 31px;
+  margin-bottom: 20px;
   padding: 34px 0;
-  width: 303px;
+  width: 290px;
   background-color: rgba(0, 0, 0, 0.75);
   border-radius: 8px;
 }
@@ -898,7 +907,9 @@ img {
 }
 @media (min-width: 768px) {
   .section-price__card {
+    margin-bottom: 0;
     margin-right: 25px;
+    width: 303px;
   }
 }
 @media (min-width: 1200px) {
@@ -980,11 +991,7 @@ img {
   margin: 0;
   font-size: 16px;
   font-weight: 500;
-}
-@media (min-width: 768px) {
-  .section-price-structure p {
-    line-height: 1.87;
-  }
+  line-height: 1.87;
 }
 @media (min-width: 1200px) {
   .section-price-structure p {
@@ -999,7 +1006,7 @@ img {
   font-size: 12px;
   font-weight: 700;
   color: #fff;
-  letter-spacing: 2.8px;
+  letter-spacing: 2.4px;
   line-height: 1.5;
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
@@ -1017,7 +1024,6 @@ img {
 @media (min-width: 768px) {
   .section-price__button {
     padding: 16px 28px;
-    letter-spacing: 2.4px;
   }
 }
 @media (min-width: 1200px) {
