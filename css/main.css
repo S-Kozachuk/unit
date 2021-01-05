@@ -474,7 +474,7 @@ body {
 }
 @media (min-width: 1200px) {
   .section-cta {
-    padding: 83px 0 90px;
+    padding: 83px 0 88px;
   }
 }
 .section-cta::before {
@@ -504,6 +504,11 @@ body {
   .section-cta__title {
     line-height: 1;
     margin-bottom: 55px;
+  }
+}
+@media (min-width: 768px) {
+  .section-cta__title {
+    margin-bottom: 50px;
   }
 }
 .section-cta span {
