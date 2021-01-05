@@ -1,6 +1,6 @@
 .section-cta {
     position: relative;
-    padding: 83px 0 90px;
+    padding: 75px 0 75px;
     background-color: #0a824e;
     background-image: url("../img/cta/tablet.jpg");
     background-repeat: no-repeat;
@@ -38,10 +38,17 @@
 
 .section-cta__title {
     margin: 0;
-    margin-bottom: 55px;
+    margin-bottom: 40px;
     color: #fff;
     font-size: 22px;
     font-weight: 500;
+    line-height: 1.36;
+
+    @media (min-width: 768px) {
+        line-height: 1;
+        margin-bottom: 55px;
+    }
+
 }
 
 .section-cta span {
