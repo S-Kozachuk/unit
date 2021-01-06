@@ -440,7 +440,7 @@ img {
 }
 @media (min-width: 768px) {
   .section-functional {
-    padding: 67px 0 60px;
+    padding: 67px 0 91px;
   }
 }
 @media (min-width: 1200px) {
@@ -628,7 +628,7 @@ img {
 }
 @media (min-width: 768px) {
   .section-cta {
-    padding: 70px 0 78px;
+    padding: 70px 0 79px;
     background-position: center 49%;
   }
 }
@@ -663,10 +663,10 @@ img {
 @media (min-width: 768px) {
   .section-cta__title {
     line-height: 1;
-    margin-bottom: 55px;
+    margin-bottom: 59px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .section-cta__title {
     margin-bottom: 50px;
   }
