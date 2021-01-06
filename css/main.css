@@ -1125,6 +1125,7 @@ img {
   .testimonial__text {
     margin-bottom: 25px;
     padding: 0;
+    max-width: 467px;
     font-size: 16px;
     line-height: 2.12;
   }
@@ -1132,6 +1133,7 @@ img {
 @media (min-width: 1200px) {
   .testimonial__text {
     margin-bottom: 47px;
+    max-width: 750px;
     font-size: 18px;
     line-height: 2.22;
   }
@@ -1197,16 +1199,17 @@ img {
 }
 @media (min-width: 768px) {
   .clients-carousel.owl-carousel .owl-nav button.owl-prev {
-    top: 15px;
-    left: -50px;
-    transform: translateX(100%);
+    margin-left: 0;
+    top: 0;
+    left: 0;
+    bottom: auto;
+    transform: unset;
   }
 }
 @media (min-width: 1200px) {
   .clients-carousel.owl-carousel .owl-nav button.owl-prev {
-    top: 15px;
-    left: -50px;
-    transform: translateX(100%);
+    left: -40px;
+    transform: translateX(-100%);
   }
 }
 .clients-carousel.owl-carousel .owl-nav button.owl-next {
@@ -1230,15 +1233,16 @@ img {
 }
 @media (min-width: 768px) {
   .clients-carousel.owl-carousel .owl-nav button.owl-next {
-    top: 15px;
-    right: -43px;
-    transform: translateX(100%);
+    margin-left: 0;
+    top: 0;
+    right: 0;
+    left: auto;
+    transform: unset;
   }
 }
 @media (min-width: 1200px) {
   .clients-carousel.owl-carousel .owl-nav button.owl-next {
-    top: 15px;
-    right: -43px;
+    right: -40px;
     transform: translateX(100%);
   }
 }
