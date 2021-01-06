@@ -46,12 +46,9 @@ img {
   text-transform: uppercase;
   letter-spacing: 3.2px;
 }
-.section-title.section-title--small {
-  font-size: 14px;
-}
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .section-title.section-title--small {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 .section-subtitle {
@@ -1057,7 +1054,7 @@ img {
   }
 }
 .section-clients {
-  padding: 75px 0 160px;
+  padding: 70px 0 144px;
 }
 @media (min-width: 768px) {
   .section-clients {
@@ -1074,7 +1071,7 @@ img {
   }
 }
 .section-clients__title {
-  margin-bottom: 45px;
+  margin-bottom: 33px;
   text-align: center;
 }
 @media (min-width: 768px) {
@@ -1088,7 +1085,7 @@ img {
   }
 }
 .section-clients__header {
-  margin-bottom: 50px;
+  margin-bottom: 33px;
   text-align: center;
 }
 @media (min-width: 768px) {
@@ -1112,7 +1109,7 @@ img {
 }
 .testimonial__text {
   margin: 0 auto;
-  margin-bottom: 15px;
+  margin-bottom: 8px;
   padding: 0 9px;
   max-width: 520px;
   color: #808080;
@@ -1186,7 +1183,7 @@ img {
   background-repeat: no-repeat;
   background-size: auto;
   position: absolute;
-  bottom: -40px;
+  bottom: -17px;
   margin-left: -20px;
   left: 50%;
   transform: translate(-100%, 100%);
@@ -1220,7 +1217,7 @@ img {
   background-repeat: no-repeat;
   background-size: auto;
   position: absolute;
-  bottom: -40px;
+  bottom: -17px;
   margin-left: 20px;
   left: 50%;
   transform: translateY(100%);
