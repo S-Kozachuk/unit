@@ -625,6 +625,7 @@ img {
   background-position: center 10%;
   -moz-background-size: cover;
        background-size: cover;
+  z-index: 1;
 }
 @media (min-width: 768px) {
   .section-cta {
