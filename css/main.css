@@ -1074,7 +1074,7 @@ img {
 }
 @media (min-width: 1200px) {
   .section-price {
-    padding: 100px 0 89px;
+    padding: 100px 0 88px;
   }
 }
 @media (min-width: 768px) {
@@ -1345,7 +1345,7 @@ img {
 }
 @media (min-width: 1200px) {
   .section-clients {
-    padding: 103px 0 78px;
+    padding: 108px 0 78px;
     background-image: url("../img/clients/bg-clients.svg");
     background-repeat: no-repeat;
     background-position: center 156px;
