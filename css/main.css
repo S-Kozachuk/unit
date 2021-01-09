@@ -1344,8 +1344,8 @@ footer {
   display: flex;
 }
 .footer-social a {
-  position: relative;
-  display: block;
+  display: flex;
+  justify-content: center;
   margin-right: 22px;
   width: 48px;
   height: 48px;
@@ -1363,12 +1363,6 @@ footer {
   .footer-social a {
     margin-right: 32px;
   }
-}
-.footer-social img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 .footer-copyright {
   margin: 0 auto;
