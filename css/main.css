@@ -1248,6 +1248,7 @@ img {
 }
 .section-price-structure {
   margin-bottom: 32px;
+  border-top: 1px solid rgba(255, 255, 255, 0.051);
 }
 .section-price-structure:nth-last-child(2) {
   margin-bottom: 35px;
