@@ -312,7 +312,7 @@ img {
 @media (min-width: 1200px) {
   .header-nav-button {
     top: 60px;
-    left: 54px;
+    left: 70px;
     right: auto;
   }
 }
@@ -336,7 +336,7 @@ img {
 @media (min-width: 1200px) {
   .header-search-button {
     top: 60px;
-    right: 54px;
+    right: 69px;
   }
 }
 .section-functional {
@@ -350,7 +350,7 @@ img {
 }
 @media (min-width: 1200px) {
   .section-functional {
-    padding: 107px 0 60px;
+    padding: 107px 0 93px;
     background-image: url("../img/bg-particles.svg");
     background-repeat: no-repeat;
     background-position: center 70px;
@@ -368,7 +368,7 @@ img {
 }
 @media (min-width: 1200px) {
   .section-functional__title {
-    margin-bottom: 73px;
+    margin-bottom: 66px;
   }
 }
 .section-functional__header {
@@ -493,7 +493,7 @@ img {
 }
 @media (min-width: 1200px) {
   .section-cta {
-    padding: 83px 0 88px;
+    padding: 83px 0 111px;
   }
 }
 .section-cta::before {
@@ -527,7 +527,7 @@ img {
 }
 @media (min-width: 1200px) {
   .section-cta__title {
-    margin-bottom: 50px;
+    margin-bottom: 71px;
   }
 }
 .section-cta span {
@@ -718,7 +718,7 @@ img {
 }
 @media (min-width: 1200px) {
   .section-focus {
-    padding-top: 80px;
+    padding-top: 81px;
   }
   .section-focus::before {
     display: block;
@@ -803,7 +803,7 @@ img {
 }
 @media (min-width: 1200px) {
   .section-focus__title {
-    margin-bottom: 50px;
+    margin-bottom: 39px;
   }
 }
 .section-focus__header {
@@ -1090,7 +1090,7 @@ img {
 }
 @media (min-width: 1200px) {
   .section-clients {
-    padding: 108px 0 78px;
+    padding: 108px 0 73px;
     background-image: url("../img/clients/bg-clients.svg");
     background-repeat: no-repeat;
     background-position: center 156px;
