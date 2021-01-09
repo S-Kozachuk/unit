@@ -926,6 +926,7 @@ img {
 @media (min-width: 1200px) {
   .section-price__card {
     margin-right: 30px;
+    padding: 38px 0 39px;
   }
 }
 .section-price-level {
@@ -935,6 +936,11 @@ img {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2.8px;
+}
+@media (min-width: 1200px) {
+  .section-price-level {
+    margin-bottom: 9px;
+  }
 }
 .section-price-cost {
   margin-bottom: 3px;
@@ -948,6 +954,11 @@ img {
 @media (min-width: 768px) {
   .section-price-cost {
     margin-bottom: 6px;
+  }
+}
+@media (min-width: 1200px) {
+  .section-price-cost {
+    margin-bottom: 16px;
   }
 }
 .section-price-rate {
@@ -969,7 +980,7 @@ img {
 }
 @media (min-width: 1200px) {
   .section-price-rate {
-    margin-bottom: 27px;
+    margin-bottom: 31px;
   }
 }
 .section-price-line {
@@ -984,6 +995,11 @@ img {
 @media (min-width: 1200px) {
   .section-price-line {
     margin-bottom: 25px;
+  }
+}
+@media (min-width: 1200px) {
+  .card__offer {
+    padding-top: 27px;
   }
 }
 .section-price-structure {
@@ -1006,7 +1022,7 @@ img {
     margin-bottom: 30px;
   }
   .section-price-structure:nth-last-child(2) {
-    margin-bottom: 30px;
+    margin-bottom: 25px;
   }
 }
 .section-price-structure ul {
