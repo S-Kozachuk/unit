@@ -493,7 +493,7 @@ img {
 }
 @media (min-width: 768px) {
   .section-cta {
-    padding: 70px 0 79px;
+    padding: 73px 0 79px;
     background-position: center 49%;
   }
 }
@@ -528,8 +528,8 @@ img {
 }
 @media (min-width: 768px) {
   .section-cta__title {
-    line-height: 1;
-    margin-bottom: 59px;
+    line-height: 1.2;
+    margin-bottom: 52px;
   }
 }
 @media (min-width: 1200px) {
