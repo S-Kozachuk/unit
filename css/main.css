@@ -1087,7 +1087,7 @@ img {
 }
 @media (min-width: 768px) {
   .section-clients {
-    padding: 70px 0 56px;
+    padding: 72px 0 56px;
   }
 }
 @media (min-width: 1200px) {
@@ -1105,7 +1105,7 @@ img {
 }
 @media (min-width: 768px) {
   .section-clients__title {
-    margin-bottom: 21px;
+    margin-bottom: 26px;
   }
 }
 @media (min-width: 1200px) {
@@ -1154,11 +1154,11 @@ img {
 }
 @media (min-width: 768px) {
   .testimonial__text {
-    margin-bottom: 23px;
+    margin-bottom: 19px;
     padding: 0;
     max-width: 467px;
     font-size: 16px;
-    line-height: 2.12;
+    line-height: 2.125;
   }
 }
 @media (min-width: 1200px) {
