@@ -369,7 +369,7 @@ img {
 }
 @media (min-width: 1200px) {
   .section-functional__title {
-    margin-bottom: 66px;
+    margin-bottom: 69px;
   }
 }
 .section-functional__header {
@@ -383,7 +383,7 @@ img {
 }
 @media (min-width: 1200px) {
   .section-functional__header {
-    margin-bottom: 85px;
+    margin-bottom: 86px;
   }
 }
 .section-functional__benefits {
@@ -500,7 +500,7 @@ img {
 }
 @media (min-width: 1200px) {
   .section-cta {
-    padding: 83px 0 91px;
+    padding: 83px 0 88px;
     background-position: center 9%;
   }
 }
@@ -862,7 +862,7 @@ img {
 }
 @media (min-width: 1200px) {
   .section-price {
-    padding: 100px 0 88px;
+    padding: 105px 0 90px;
   }
 }
 @media (min-width: 768px) {
@@ -960,7 +960,7 @@ img {
 }
 @media (min-width: 1200px) {
   .card__rate {
-    margin-bottom: 31px;
+    margin-bottom: 28px;
   }
 }
 .section-price-level {
@@ -974,7 +974,7 @@ img {
 }
 @media (min-width: 1200px) {
   .section-price-level {
-    margin-bottom: 9px;
+    margin-bottom: 12px;
   }
 }
 .section-price-cost {
@@ -1013,7 +1013,7 @@ img {
   }
 }
 .card__offer {
-  padding-top: 27px;
+  padding-top: 28px;
   border-top: 1px solid rgba(255, 255, 255, 0.051);
 }
 @media (min-width: 768px) {
@@ -1031,10 +1031,7 @@ img {
 }
 @media (min-width: 1200px) {
   .section-price-structure {
-    margin-bottom: 30px;
-  }
-  .section-price-structure:nth-last-child(2) {
-    margin-bottom: 25px;
+    margin-bottom: 28px;
   }
 }
 .section-price-structure ul {
@@ -1092,7 +1089,7 @@ img {
 }
 @media (min-width: 1200px) {
   .section-clients {
-    padding: 108px 0 73px;
+    padding: 108px 0 75px;
     background-image: url("../img/clients/bg-clients.svg");
     background-repeat: no-repeat;
     background-position: center 156px;
@@ -1110,7 +1107,7 @@ img {
 }
 @media (min-width: 1200px) {
   .section-clients__title {
-    margin-bottom: 68px;
+    margin-bottom: 73px;
   }
 }
 .section-clients__header {
@@ -1286,7 +1283,7 @@ footer {
 }
 @media (min-width: 1200px) {
   footer {
-    padding: 80px 0 67px;
+    padding: 82px 0 67px;
   }
 }
 .footer-nav {
