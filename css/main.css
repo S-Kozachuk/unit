@@ -651,7 +651,7 @@ img {
 }
 @media (min-width: 1200px) {
   .section-cta {
-    padding: 83px 0 111px;
+    padding: 83px 0 91px;
   }
 }
 .section-cta::before {
@@ -685,7 +685,7 @@ img {
 }
 @media (min-width: 1200px) {
   .section-cta__title {
-    margin-bottom: 71px;
+    margin-bottom: 49px;
   }
 }
 .section-cta span {
@@ -694,6 +694,7 @@ img {
   letter-spacing: 2.2px;
 }
 .section-cta__button {
+  display: inline-block;
   padding: 21px 43px;
   background-color: white;
   color: #2bb279;
