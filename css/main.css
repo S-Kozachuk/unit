@@ -65,9 +65,11 @@ img {
   text-transform: uppercase;
   letter-spacing: 3.2px;
 }
-.section-title--small {
-  font-size: 14px;
-  letter-spacing: 2.8px;
+@media (min-width: 1200px) {
+  .section-title--small {
+    font-size: 14px;
+    letter-spacing: 2.8px;
+  }
 }
 .section-subtitle {
   margin: 0;
