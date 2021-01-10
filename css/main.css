@@ -704,6 +704,7 @@ img {
   font-weight: 700;
   letter-spacing: 2.8px;
   text-transform: uppercase;
+  text-decoration: none;
   font-family: "Montserrat", sans-serif;
   border: none;
   outline: none;
