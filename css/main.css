@@ -72,6 +72,7 @@ img {
 @media (min-width: 768px) {
   .section-header {
     font-size: 42px;
+    line-height: 1.19;
   }
 }
 @media (min-width: 1200px) {
@@ -582,7 +583,7 @@ img {
 }
 @media (min-width: 768px) {
   .section-tasks {
-    padding: 65px 0 42px;
+    padding: 65px 0 44px;
   }
   .section-tasks::before {
     display: none;
