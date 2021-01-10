@@ -808,7 +808,7 @@ img {
 }
 @media (min-width: 768px) {
   .section-focus__title {
-    margin-bottom: 36px;
+    margin-bottom: 42px;
   }
 }
 @media (min-width: 1200px) {
@@ -839,7 +839,7 @@ img {
 @media (min-width: 768px) {
   .section-focus__desc {
     text-align: left;
-    line-height: 2.2;
+    line-height: 2.142;
   }
 }
 .section-focus__desc p {
