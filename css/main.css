@@ -489,6 +489,7 @@ img {
   background-repeat: no-repeat;
   background-position: center 10%;
   background-size: cover;
+  z-index: 1;
 }
 @media (min-width: 768px) {
   .section-cta {
@@ -924,6 +925,7 @@ img {
   width: 290px;
   background-color: rgba(0, 0, 0, 0.75);
   border-radius: 8px;
+  transition: background-color 0.3s ease;
 }
 .section-price__card:last-child {
   margin-right: 0;
@@ -1060,7 +1062,7 @@ img {
   border: 1px solid #b2b2b2;
   outline: none;
   cursor: pointer;
-  transition: background-color 0.2s ease;
+  transition: background-color 0.3s ease;
 }
 .section-price__button:hover,
 .section-price__button:focus {
