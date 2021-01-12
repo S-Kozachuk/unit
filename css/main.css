@@ -913,7 +913,6 @@ img {
 }
 @media (min-width: 768px) {
   .section-task__img {
-    margin-right: 2px;
     max-width: 270px;
   }
 }
@@ -1216,10 +1215,10 @@ img {
   -webkit-border-radius: 8px;
      -moz-border-radius: 8px;
           border-radius: 8px;
-  -webkit-transition: background-color 0.3s ease;
-  -o-transition: background-color 0.3s ease;
-  -moz-transition: background-color 0.3s ease;
-  transition: background-color 0.3s ease;
+  -webkit-transition: background-color 0.4s ease;
+  -o-transition: background-color 0.4s ease;
+  -moz-transition: background-color 0.4s ease;
+  transition: background-color 0.4s ease;
 }
 .section-price__card:last-child {
   margin-right: 0;
