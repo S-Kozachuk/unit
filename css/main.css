@@ -20,13 +20,12 @@ img {
 }
 @media (min-width: 768px) {
   .container {
-    width: 768px;
+    max-width: 768px;
   }
 }
 @media (min-width: 1200px) {
   .container {
     max-width: 1200px;
-    width: 1200px;
   }
 }
 .column-center {
