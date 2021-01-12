@@ -845,6 +845,7 @@ img {
   }
 }
 .section-tasks-text {
+  max-width: 470px;
   text-align: center;
 }
 @media (min-width: 768px) {
