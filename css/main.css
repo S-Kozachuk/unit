@@ -402,6 +402,17 @@ img {
      -moz-border-radius: 50%;
           border-radius: 50%;
   border-style: none;
+  cursor: pointer;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  -moz-transition: .3s;
+  transition: .3s;
+}
+.header-nav-button:hover {
+  background-color: rgba(80, 227, 163, 0.5);
+}
+.header-nav-button:focus {
+  outline-style: none;
 }
 @media (min-width: 768px) {
   .header-nav-button {
@@ -436,6 +447,17 @@ img {
      -moz-border-radius: 50%;
           border-radius: 50%;
   border-style: none;
+  cursor: pointer;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  -moz-transition: .3s;
+  transition: .3s;
+}
+.header-search-button:hover {
+  background-color: rgba(80, 227, 163, 0.5);
+}
+.header-search-button:focus {
+  outline-style: none;
 }
 @media (min-width: 768px) {
   .header-search-button {
