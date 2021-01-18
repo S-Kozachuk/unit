@@ -16,7 +16,9 @@
 https://kozachuk-dev.ru/projects/unit/index.html 
 
 **Тестировать локально**  
+```
 git clone https://github.com/S-Kozachuk/unit  
 cd unit
+```
 
 Открыть index.html
