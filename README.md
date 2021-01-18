@@ -12,8 +12,7 @@
 - Форма обратной связи (без обработчика)
 - Подключен и настроен слайдер Owl Carousel
 
-**Демо онлайн**  
-https://kozachuk-dev.ru/projects/unit/index.html 
+[Демо онлайн](https://kozachuk-dev.ru/projects/unit/index.html)
 
 **Тестировать локально**  
 ```
